@@ -79,30 +79,64 @@ Power BI:
 
 Power BI Desktop (Windows) to open .pbix.
 ---
-
 ## Setup
-Clone
+
+### 1. Clone repository
+
+```bash
 git clone https://github.com/Gitzav/role_of_datapreparation.git
 cd role_of_datapreparation
-(Recommended) Create a virtual environment
+```
 
+### 2. Create a virtual environment (recommended)
+
+```bash
 python -m venv venv
-# Windows
+```
+
+### 3. Activate the environment
+
+**Windows**
+
+```bash
 venv\Scripts\activate
-# macOS / Linux
+```
+
+**macOS / Linux**
+
+```bash
 source venv/bin/activate
-Install dependencies
+```
+
+### 4. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
 ---
 
 ## How to Run
 
+### Run Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Mở file `main.ipynb` trong trình duyệt và chạy các cell.
+
+### Run visual script
+
+```bash
+python visual.py
+```
+
 ---
 
 ## Author
-Project: role_of_datapreparation
 
-Topic: The Role of Data Preparation in Machine Learning
-
-Contact: Group 8 · DSEB 65B · National Economics University
-
-
+**Project:** role_of_datapreparation
+**Topic:** The Role of Data Preparation in Machine Learning
+**Group:** Group 8 — DSEB 65B
+**University:** National Economics University
