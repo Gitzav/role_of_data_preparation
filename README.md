@@ -75,9 +75,8 @@ matplotlib, seaborn
 
 jupyter / jupyterlab
 
-Power BI:
+Power BI: Power BI Desktop (Windows) to open .pbix.
 
-Power BI Desktop (Windows) to open .pbix.
 ---
 
 ## Setup
@@ -91,7 +90,9 @@ python -m venv venv
 venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
+
 Install dependencies
+
 ---
 
 ## How to Run
