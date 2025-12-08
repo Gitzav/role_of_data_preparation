@@ -76,7 +76,7 @@ role_of_datapreparation/
 │   └── rolling_sales_story.pbix  # Power BI report for data storytelling
 ├── data/
 │   └── rolling_sale_data.*       # NYC dataset (Nov 2024 – Oct 2025)
-├── requirements.txt              # Optional: Python deps
+├── requirements.txt              # Optional: Python deps (for main.ipynb)
 └── README.md
 ```
 ---
@@ -122,7 +122,58 @@ pip install -r requirements.txt
 
 ---
 
-## How to Run
+## How to Run for visual.py
+This project provides a complete exploratory data analysis (EDA) pipeline for NYC rolling real estate sales. The main entry point is the `run_analysis()` function inside `visual.py`, which performs:
+
+* Data loading & cleaning
+* Categorical & numerical distribution visualization
+* Correlation heatmaps
+* YEAR BUILT distribution
+* PPSF–based noise/outlier detection
+* Outlier summary
+* Tax class analysis
+* Log-transformed sale price analysis
+
+Follow the steps below to run the analysis.
+### **1. Install Dependencies**
+
+Make sure you have Python 3.7+ installed.
+
+Install required packages. All required packages are provided in `requirements.txt`.
+
+```bash
+pip install -r requirements.txt
+```
+
+### **2. Run from Terminal**
+
+You can directly execute the script:
+
+```bash
+python visual.py
+```
+
+### **3. Run Inside a Jupyter Notebook**
+
+Import the function and call it:
+
+```python
+from visual import run_analysis
+
+run_analysis('data/rolling_sale_data.xlsx')
+```
+
+### **4. Output**
+Running the script will generate:
+
+* Multiple plots (histograms, KDEs, bar charts)
+* Correlation heatmap (with highlighted SALE PRICE row)
+* PPSF outlier detection scatterplot
+* Outlier summary bar chart
+* Log-transformed price visualization
+
+The output is displayed directly in your terminal and as visual charts.
+
 
 ---
 
