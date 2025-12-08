@@ -68,12 +68,13 @@ Additionally, the repository includes a **Power BI report** for end-to-end **dat
 ---
 
 ## Repository Structure
-```bash
+``` bash
 role_of_datapreparation/
 ├── main.ipynb                    # Data prep + Decision Tree + evaluation
 ├── visual.py                     # Visuals: data understanding → model comparison
 ├── reports/
-│   └── rolling_sales_story.pbix  # Power BI report for data storytelling
+│   ├── rolling_sales_story.pbix  # Power BI report for data storytelling
+│   └── report.pdf                # Printable/exported report (static)
 ├── data/
 │   └── rolling_sale_data.*       # NYC dataset (Nov 2024 – Oct 2025)
 ├── requirements.txt              # Optional: Python deps (for main.ipynb)
