@@ -81,17 +81,24 @@ Power BI: Power BI Desktop (Windows) to open .pbix.
 
 ## Setup
 Clone
+```bash
 git clone https://github.com/Gitzav/role_of_datapreparation.git
 cd role_of_datapreparation
+```
 (Recommended) Create a virtual environment
 
+```bash
 python -m venv venv
+```
 # Windows
 venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
 
 Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
