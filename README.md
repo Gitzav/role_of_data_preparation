@@ -91,11 +91,14 @@ cd role_of_datapreparation
 python -m venv venv
 ```
 # Windows
+```bash
 venv\Scripts\activate
+```
 # macOS / Linux
+```bash
 source venv/bin/activate
-
-Install dependencies
+```
+# Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
