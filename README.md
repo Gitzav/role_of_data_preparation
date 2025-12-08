@@ -74,7 +74,7 @@ role_of_datapreparation/
 ├── visual.py                     # Visuals: data understanding → model comparison
 ├── reports/
 │   ├── rolling_sales_story.pbix  # Power BI report for data storytelling
-│   └── report.pdf                # Printable/exported report (static)
+│   └── REPORT_final_GROUP8.pdf                # report data strorytelling and technical analysis (static)
 ├── data/
 │   └── rolling_sale_data.*       # NYC dataset (Nov 2024 – Oct 2025)
 ├── requirements.txt              # Optional: Python deps (for main.ipynb)
