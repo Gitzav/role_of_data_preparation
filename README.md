@@ -90,15 +90,15 @@ cd role_of_datapreparation
 ```bash
 python -m venv venv
 ```
-# Windows
+### Windows
 ```bash
 venv\Scripts\activate
 ```
-# macOS / Linux
+### macOS / Linux
 ```bash
 source venv/bin/activate
 ```
-# Install dependencies
+### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
