@@ -92,21 +92,6 @@ venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
 Install dependencies
-
-If you have requirements.txt:
-
-pip install -r requirements.txt
-Or install the essentials:
-
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-Sample requirements.txt (optional):
-
-pandas>=2.0
-numpy>=1.23
-scikit-learn>=1.3
-matplotlib>=3.7
-seaborn>=0.13
-jupyterlab>=4.0
 ---
 
 ## How to Run
@@ -118,6 +103,6 @@ Project: role_of_datapreparation
 
 Topic: The Role of Data Preparation in Machine Learning
 
-Contact: [Your Name] · [Email / GitHub / LinkedIn]
+Contact: Group 8 · DSEB 65B · National Economics University
 
-If you find this useful, please ⭐ the repo and feel free to open issues/PRs.
+
