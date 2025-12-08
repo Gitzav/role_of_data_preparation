@@ -50,7 +50,7 @@ Additionally, the repository includes a **Power BI report** for end-to-end **dat
   - Location: `borough`, `neighborhood`, `address`, …
   - Property attributes: `building_class`, `land_sqft`, `gross_sqft`, `bedrooms`, `bathrooms`, …
   - Transaction: `sale_price`, `sale_date`, …
-- **Format:** `csv` / `parquet` / `xlsx` (place under `data/`)
+- **Format:** `xlsx` (place under `data/`)
 
 > Consider adding a separate schema document describing columns and dtypes.
 
@@ -84,15 +84,10 @@ Power BI Desktop (Windows) to open .pbix.
 
 Setup
 Clone
-
-bash
-Sao chép mã
-git clone https://github.com/<your-username>/role_of_datapreparation.git
+git clone https://github.com/Gitzav/role_of_datapreparation.git
 cd role_of_datapreparation
 (Recommended) Create a virtual environment
 
-bash
-Sao chép mã
 python -m venv venv
 # Windows
 venv\Scripts\activate
@@ -102,18 +97,12 @@ Install dependencies
 
 If you have requirements.txt:
 
-bash
-Sao chép mã
 pip install -r requirements.txt
 Or install the essentials:
 
-bash
-Sao chép mã
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 Sample requirements.txt (optional):
 
-txt
-Sao chép mã
 pandas>=2.0
 numpy>=1.23
 scikit-learn>=1.3
@@ -124,8 +113,6 @@ How to Run
 1) Notebook main.ipynb
 Launch Jupyter and open the notebook:
 
-bash
-Sao chép mã
 jupyter lab
 # or
 jupyter notebook
