@@ -1,6 +1,20 @@
 # role_of_datapreparation 🧹📊
 **The Role of Data Preparation in Machine Learning**  
 *(Python + Power BI data storytelling with NYC real-estate data, Nov 2024 → Oct 2025)*
+<!-- Badges -->
+![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![scikit-learn ≥1.3](https://img.shields.io/badge/scikit--learn-%E2%89%A51.3-F7931E?logo=scikit-learn&logoColor=white)
+![pandas ≥2.0](https://img.shields.io/badge/pandas-%E2%89%A52.0-150458?logo=pandas&logoColor=white)
+![seaborn](https://img.shields.io/badge/seaborn-0.13-9ECAE1?logo=python&logoColor=white)
+![matplotlib](https://img.shields.io/badge/matplotlib-3.7-11557C?logo=python&logoColor=white)
+![Focus: Data Preparation](https://img.shields.io/badge/Focus-Data%20Preparation-brightgreen)
+![EDA](https://img.shields.io/badge/EDA-Exploration-blue)
+![Model: Decision Tree](https://img.shields.io/badge/Model-Decision%20Tree-orange)
+![Power BI](https://img.shields.io/badge/Power%20BI-Report-F2C811?logo=powerbi&logoColor=black)
+![Dataset: NYC Real Estate](https://img.shields.io/badge/Dataset-NYC%20Real%20Estate-0A66C2)
+![Time Range](https://img.shields.io/badge/Time%20Range-11%2F2024%E2%86%9210%2F2025-informational)
+![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ---
 ## 🏷️ Tags
