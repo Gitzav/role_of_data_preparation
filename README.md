@@ -12,12 +12,6 @@
 - [Tech Stack & System Requirements](#tech-stack--system-requirements)
 - [Setup](#setup)
 - [How to Run](#how-to-run)
-  - [1) Notebook `main.ipynb`](#1-notebook-mainipynb)
-  - [2) Script `visual.py`](#2-script-visualpy)
-  - [3) Power BI Report (Data Storytelling)](#3-power-bi-report-data-storytelling)
-- [ML Workflow & Data Storytelling](#ml-workflow--data-storytelling)
-- [Expected Results (Example)](#expected-results-example)
-- [Extensions](#extensions)
 - [Author](#author)
 
 ---
@@ -67,7 +61,10 @@ role_of_datapreparation/
 │   └── rolling_sale_data.*       # NYC dataset (Nov 2024 – Oct 2025)
 ├── requirements.txt              # Optional: Python deps
 └── README.md
-Tech Stack & System Requirements
+
+---
+
+## Tech Stack & System Requirements
 Python (recommended ≥ 3.9):
 
 pandas, numpy
@@ -81,8 +78,9 @@ jupyter / jupyterlab
 Power BI:
 
 Power BI Desktop (Windows) to open .pbix.
+---
 
-Setup
+## Setup
 Clone
 git clone https://github.com/Gitzav/role_of_datapreparation.git
 cd role_of_datapreparation
@@ -109,131 +107,13 @@ scikit-learn>=1.3
 matplotlib>=3.7
 seaborn>=0.13
 jupyterlab>=4.0
-How to Run
-1) Notebook main.ipynb
-Launch Jupyter and open the notebook:
+---
 
-jupyter lab
-# or
-jupyter notebook
-Follow the cells in order to:
+## How to Run
 
-Load data from data/rolling_sale_data.*
+---
 
-Data Understanding: distributions, correlations, missing, outliers
-
-Data Preparation: impute/drop, outlier handling, encoding, scaling (if needed), train/test split
-
-Modeling (Decision Tree): train with raw and prepared data
-
-Evaluation: compare metrics before vs after (e.g., MAE/MSE/R² for regression; Accuracy/F1/AUC for classification)
-
-Save any artifacts (plots, metrics, models) if implemented
-
-2) Script visual.py
-Purpose: consolidate Data Understanding & Model Comparison visuals.
-
-Run:
-
-bash
-Sao chép mã
-python visual.py
-Expected outputs (depending on your implementation):
-
-Feature distributions (hist/box/violin)
-
-Missing-value heatmap
-
-Outlier views (boxplot)
-
-Model comparison charts (bar/line/table)
-
-Feature importance
-
-By default, the script reads from data/rolling_sale_data.*.
-If you add CLI options (e.g., --data, --out), document them or provide --help.
-
-3) Power BI Report (Data Storytelling)
-Open reports/rolling_sales_story.pbix in Power BI Desktop, then point to your local dataset:
-
-Home → Transform data → Data source settings
-
-Select the current source → Change Source / Browse to data/rolling_sale_data.*
-
-Apply changes → Refresh
-
-Suggested report pages / visuals:
-
-Overview: core KPIs (transaction count, median/avg price, by time)
-
-Geography: by borough / neighborhood
-
-Data Quality: missing/outlier rates by field/segment
-
-Model Impact: Raw vs Prepared metrics & feature importance
-
-Slicers/Filters: time (Nov 2024–Oct 2025), area, property type
-
-ML Workflow & Data Storytelling
-Data Understanding
-
-Inspect schema/dtypes and distributions
-
-Identify missing values & outliers
-
-Explore relationships (corr, scatter, grouped summaries)
-
-Data Preparation
-
-Impute/drop missing, handle outliers (capping/winsorize, transforms)
-
-Encode categoricals (one-hot/ordinal), scale features if needed
-
-Split data (train/test or train/val/test)
-
-Modeling — Decision Tree
-
-Train two scenarios:
-
-Raw data (minimal preparation)
-
-Prepared data (cleaned/transformed)
-
-Tune hyperparameters (e.g., max_depth, min_samples_split, min_samples_leaf)
-
-Evaluation & Visualization
-
-Compare metrics (Accuracy/F1/AUC or MAE/MSE/R²)
-
-Plots: Pred vs Actual, Residuals (regression), Confusion Matrix (classification)
-
-Feature importance (if applicable)
-
-Story & Insights
-
-Summarize improvements due to preparation
-
-Key findings across time/area/property segments
-
-Expected Results (Example)
-Model Variant	Example Metric
-Decision Tree (raw data)	Accuracy ≈ 0.60 / R² ≈ 0.55
-Decision Tree (prepared data)	Accuracy ≈ 0.80 / R² ≈ 0.75
-
-These numbers are illustrative—actual results depend on data quality/size, preprocessing, and hyperparameters.
-
-Extensions
-Additional models: Random Forest, Gradient Boosting, XGBoost, LightGBM
-
-Advanced feature engineering (interactions, transforms, domain features)
-
-Cross-validation and hyperparameter search (grid/random/bayesian)
-
-Interactive dashboards with Streamlit or Dash
-
-Pipeline automation (Makefile, DVC, Prefect/Airflow)
-
-Author
+## Author
 Project: role_of_datapreparation
 
 Topic: The Role of Data Preparation in Machine Learning
