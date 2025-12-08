@@ -3,7 +3,10 @@
 *(Python + Power BI data storytelling with NYC real-estate data, Nov 2024 → Oct 2025)*
 
 ---
+## 🏷️ Tags
 
+`machine-learning` · `data-preparation` · `data-cleaning` · `feature-engineering` · `exploratory-data-analysis` · `eda` · `model-evaluation` · `feature-importance` · `decision-tree` · `scikit-learn` · `pandas` · `numpy` · `matplotlib` · `seaborn` · `jupyter-notebook` · `power-bi` · `data-visualization` · `data-storytelling` · `real-estate` · `nyc` · `housing-prices` · `tabular-data` · `supervised-learning` · `regression` · `classification` · `train-test-split` · `encoding` · `scaling` · `outliers` · `missing-data`
+---
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Objectives](#objectives)
